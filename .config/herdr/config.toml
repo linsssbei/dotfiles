@@ -1,0 +1,24 @@
+onboarding = false
+
+[keys]
+# Match tmux prefix (C-a). tmux `bind C-a send-prefix` has no herdr equivalent.
+prefix = "ctrl+a"
+
+# Side-by-side split, matching tmux `bind |`. Pipe is not in herdr's documented
+# accepted-key list, so this may not bind on all terminals; fallback is prefix+v.
+split_vertical = "prefix+|"
+
+# Agent switching (unbound by default).
+next_agent = "prefix+comma"
+previous_agent = "prefix+period"
+
+# Left as herdr defaults (already match, or by user's choice):
+#   focus_pane_left/down/up/right = prefix+h/j/k/l   (matches tmux h/j/k/l)
+#   split_horizontal              = prefix+minus     (matches tmux `-`, stacked)
+#   reload_config                 = prefix+shift+r   (resize_mode keeps prefix+r)
+#
+# No herdr equivalent (dropped from tmux config):
+#   `bind y setw synchronize-panes` — herdr has no pane-sync feature.
+
+[experimental]
+pane_history = true
