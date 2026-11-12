@@ -1,0 +1,70 @@
+# Filtered export: credentials, local runtime paths, trust records and generated state omitted.
+
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[marketplaces.claude-plugins-official]
+source_type = "git"
+source = "https://github.com/anthropics/claude-plugins-official.git"
+
+
+[marketplaces.openai-codex]
+source_type = "git"
+source = "https://github.com/openai/codex-plugin-cc.git"
+
+
+[marketplaces.pm-skills]
+source_type = "git"
+source = "https://github.com/phuryn/pm-skills.git"
+
+
+[plugins."superpowers@claude-plugins-official"]
+enabled = true
+
+[plugins."codex@openai-codex"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."pm-toolkit@pm-skills"]
+enabled = true
+
+[plugins."pm-product-discovery@pm-skills"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[shell_environment_policy]
+inherit = "core"
+
+[features]
+hooks = true
+js_repl = false

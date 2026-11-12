@@ -1,0 +1,55 @@
+{
+  "enabledPlugins": {
+    "caveman@caveman": true,
+    "codex@openai-codex": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "env": {
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "repo": "JuliusBrussee/caveman",
+        "source": "github"
+      }
+    },
+    "openai-codex": {
+      "source": {
+        "repo": "openai/codex-plugin-cc",
+        "source": "github"
+      }
+    }
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "bash '/Users/lshi/.claude/hooks/herdr-agent-state.sh' session",
+            "timeout": 10,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*)"
+    ],
+    "defaultMode": "acceptEdits",
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo rm *)",
+      "Bash(rm -r *)",
+      "Bash(rm -rf /*)"
+    ]
+  },
+  "statusLine": {
+    "command": "/Users/lshi/.claude/statusline-command.sh",
+    "type": "command"
+  }
+}
