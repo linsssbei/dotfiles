@@ -1,0 +1,15 @@
+--- /Users/lshi/workspace/dotfiles/.vimrc	2026-11-12 12:02:31
++++ /Users/lshi/.vimrc	2025-10-19 13:35:56
+@@ -5,10 +5,10 @@
+ call vundle#begin()
+ Plugin 'VundleVim/Vundle.vim'
+ Plugin 'pangloss/vim-javascript'
+-Plugin 'Valloric/YouCompleteMe'
++" Plugin 'Valloric/YouCompleteMe'
+ " Plugin 'kien/ctrlp.vim'
+ Plugin 'scrooloose/nerdtree'
+-Plugin 'vim-syntastic/syntastic'
++" Plugin 'vim-syntastic/syntastic'
+ Plugin 'tpope/vim-fugitive'
+ Plugin 'jelera/vim-javascript-syntax'
+ Plugin 'scrooloose/nerdcommenter'

@@ -1,0 +1,112 @@
+[
+  {
+    "path": ".aerospace.toml",
+    "source_sha256": "ffb69b439a91f94b6f487c67f04678189fe1e38f477fc606633d24fe1a57b66f",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".gitconfig",
+    "source_sha256": "7ce0a184f0513f991ce9341a47124e8f1324d87f85b6b5179f2be39240b9545b",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".npmrc",
+    "source_sha256": "ed0790ed0ccc49f4006b9f9480d1d11b138ab44ca994de9a70e3a38643ed4119",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".zprofile",
+    "source_sha256": "aa7829da6536e747ae3a45666ea5c0392dee0f45da0cac36a1d26643d5af2bb3",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".config/git/ignore",
+    "source_sha256": "1a377e8e10315d1e8b44caf5bfe181da8320a024e4f3316b1cf1d91f9db274b3",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".config/gh/config.yml",
+    "source_sha256": "709e48c0881dc2a66935754e9ff1c9a48fb17970b550151dcd00abb50f47cbb7",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".config/opencode/opencode.jsonc",
+    "source_sha256": "d36ae382d8783db0fee05d0619ef45b6e9df555822797e71c2fc921657713431",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".config/opencode/cli.json",
+    "source_sha256": "c61c9588710825f5af9cc7e9cdd79bca3473730a1bfee9656b1789a84bc5ac59",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".config/opencode/package.json",
+    "source_sha256": "46ed8f4776837c594e75e0878d1f0f4efb15786537c30c0f8ac72d713bd54cd7",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".config/billion-context/billion-context.json",
+    "source_sha256": "d27722c3ee9a3b6bad49996f50229c0ed12dd1043e60290f9a41a492aa716813",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".pi/agent/settings.json",
+    "source_sha256": "749083a176fd08f7de0f9245f62eee71e5d758caf59d641cc03c502947becfac",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".pi/agent/keybindings.json",
+    "source_sha256": "a4c2b9262c8eb1a08bc56c820b1d958440a7d48db5d7e79873482a638d0a0d65",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".gemini/settings.json",
+    "source_sha256": "3200ed400db119b61b2ed0659ec4f96d9264ca5c764e76d0619ebec54bafe0de",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".claude/settings.json",
+    "source_sha256": "19acb849fd87e03e6d31c9bb832f2062aab5b125f6d6757c1238b2772896876a",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".claude/statusline-command.sh",
+    "source_sha256": "fc14ab03944dc653511b5d0be9ab173e880d922f97e7b32f261ac58cf0e9d852",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".claude/hooks/herdr-agent-state.sh",
+    "source_sha256": "ffd5a76b7c62f5313040fc1e98fa010ff19a7aa85dd9fe6f325b9729d5f01b46",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".codex/hooks.json",
+    "source_sha256": "6123d086a61e1f57fe0b2f8123a7e7ee2febc254487da377b4bcd3d017e06b12",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".codex/herdr-agent-state.sh",
+    "source_sha256": "2ac8115359ff849cd61e450574b371f6732780a63a07ad87c00448db5c20362d",
+    "mode": "exact-copy"
+  },
+  {
+    "path": ".codex/config.toml",
+    "mode": "filtered-export",
+    "omitted": [
+      "shell_environment_policy.set (contains credential)",
+      "local marketplaces",
+      "notify runtime path",
+      "project trust records",
+      "hook trust hashes",
+      "desktop/tui state",
+      "MCP runtime configuration"
+    ]
+  },
+  {
+    "path": ".config/openspec/config.json",
+    "mode": "filtered-export",
+    "omitted": [
+      "telemetry"
+    ]
+  }
+]
