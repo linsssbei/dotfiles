@@ -1,0 +1,16 @@
+{
+  "lastChangelogVersion": "1.4.0",
+  "theme": "dark",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4.1-flash",
+  "defaultThinkingLevel": "high",
+  "subagents": {
+    "defaultModel": "opencode-go/deepseek-v4.1-flash"
+  },
+  "packages": [
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:pi-plugin-manager",
+    "npm:billion-context"
+  ]
+}

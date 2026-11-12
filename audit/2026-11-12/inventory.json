@@ -1,0 +1,275 @@
+{
+  "captured_at": "2026-11-12T20:05:33.688918+00:00",
+  "home": "/Users/lshi",
+  "scope": "home dot entries and immediate .config children; tracked config byte comparisons; no Applications scan",
+  "entries": [
+    {
+      "path": ".CFUserTextEncoding",
+      "type": "file"
+    },
+    {
+      "path": ".DS_Store",
+      "type": "file"
+    },
+    {
+      "path": ".Trash",
+      "type": "directory"
+    },
+    {
+      "path": ".aerospace.toml",
+      "type": "file"
+    },
+    {
+      "path": ".agents",
+      "type": "directory"
+    },
+    {
+      "path": ".android",
+      "type": "directory"
+    },
+    {
+      "path": ".antigravity",
+      "type": "directory"
+    },
+    {
+      "path": ".antigravity-ide",
+      "type": "directory"
+    },
+    {
+      "path": ".bun",
+      "type": "directory"
+    },
+    {
+      "path": ".cache",
+      "type": "directory"
+    },
+    {
+      "path": ".claude",
+      "type": "directory"
+    },
+    {
+      "path": ".claude-code-router",
+      "type": "directory"
+    },
+    {
+      "path": ".claude.json",
+      "type": "file"
+    },
+    {
+      "path": ".cloudflared",
+      "type": "directory"
+    },
+    {
+      "path": ".codex",
+      "type": "directory"
+    },
+    {
+      "path": ".config",
+      "type": "directory"
+    },
+    {
+      "path": ".cups",
+      "type": "directory"
+    },
+    {
+      "path": ".docker",
+      "type": "directory"
+    },
+    {
+      "path": ".ebay-mcp",
+      "type": "directory"
+    },
+    {
+      "path": ".gemini",
+      "type": "directory"
+    },
+    {
+      "path": ".gitconfig",
+      "type": "file"
+    },
+    {
+      "path": ".lesshst",
+      "type": "file"
+    },
+    {
+      "path": ".local",
+      "type": "directory"
+    },
+    {
+      "path": ".npm",
+      "type": "directory"
+    },
+    {
+      "path": ".npm-global",
+      "type": "directory"
+    },
+    {
+      "path": ".npmrc",
+      "type": "file"
+    },
+    {
+      "path": ".oh-my-zsh",
+      "type": "directory"
+    },
+    {
+      "path": ".ollama",
+      "type": "directory"
+    },
+    {
+      "path": ".opencode",
+      "type": "directory"
+    },
+    {
+      "path": ".pi",
+      "type": "directory"
+    },
+    {
+      "path": ".python_history",
+      "type": "file"
+    },
+    {
+      "path": ".ssh",
+      "type": "directory"
+    },
+    {
+      "path": ".swiftpm",
+      "type": "directory"
+    },
+    {
+      "path": ".tmux",
+      "type": "directory"
+    },
+    {
+      "path": ".tmux.conf",
+      "type": "file"
+    },
+    {
+      "path": ".vim",
+      "type": "directory"
+    },
+    {
+      "path": ".viminfo",
+      "type": "file"
+    },
+    {
+      "path": ".vimrc",
+      "type": "file"
+    },
+    {
+      "path": ".zcompdump-Lins-MacBook-Pro-5.9",
+      "type": "file"
+    },
+    {
+      "path": ".zcompdump-Lins-MacBook-Pro-5.9.zwc",
+      "type": "file"
+    },
+    {
+      "path": ".zprofile",
+      "type": "file"
+    },
+    {
+      "path": ".zsh_history",
+      "type": "file"
+    },
+    {
+      "path": ".zsh_sessions",
+      "type": "directory"
+    },
+    {
+      "path": ".zshrc",
+      "type": "file"
+    },
+    {
+      "path": ".zshrc.bak-20260508-155305",
+      "type": "file"
+    },
+    {
+      "path": ".zshrc.bak-20260508-155904",
+      "type": "file"
+    },
+    {
+      "path": ".zshrc.bak-20260508-160200",
+      "type": "file"
+    },
+    {
+      "path": ".zshrc.bak-20260721-130930-terminal-keyboard-reset",
+      "type": "file"
+    },
+    {
+      "path": ".config/billion-context",
+      "type": "directory"
+    },
+    {
+      "path": ".config/configstore",
+      "type": "directory"
+    },
+    {
+      "path": ".config/gh",
+      "type": "directory"
+    },
+    {
+      "path": ".config/git",
+      "type": "directory"
+    },
+    {
+      "path": ".config/herdr",
+      "type": "directory"
+    },
+    {
+      "path": ".config/iterm2",
+      "type": "directory"
+    },
+    {
+      "path": ".config/last30days",
+      "type": "directory"
+    },
+    {
+      "path": ".config/opencode",
+      "type": "directory"
+    },
+    {
+      "path": ".config/openspec",
+      "type": "directory"
+    },
+    {
+      "path": ".config/orbi-mcp",
+      "type": "directory"
+    },
+    {
+      "path": ".config/uv",
+      "type": "directory"
+    }
+  ],
+  "tracked_comparisons": [
+    {
+      "path": ".config/herdr/config.toml",
+      "status": "identical",
+      "repo_sha256": "59fe19dc29df63a4884a70862d10b923f8c78222c2e10fc55041a78db1b75556",
+      "mac_sha256": "59fe19dc29df63a4884a70862d10b923f8c78222c2e10fc55041a78db1b75556"
+    },
+    {
+      "path": ".oh-my-zsh/oh-my-zsh.sh",
+      "status": "different",
+      "repo_sha256": "882adc7e862e5bd3a2ec906a911b9ae3e4a4794a6f0fea0fb68e5ec1f6ab4ee4",
+      "mac_sha256": "c2cf03254924309b0bd6366346f4edbb957dc036ec7cb5205d81a810a769c865"
+    },
+    {
+      "path": ".tmux.conf",
+      "status": "identical",
+      "repo_sha256": "965d6fc52e8b1e05abc14da941e6806f5e18df16854ecfd6df4990f6a1d32a91",
+      "mac_sha256": "965d6fc52e8b1e05abc14da941e6806f5e18df16854ecfd6df4990f6a1d32a91"
+    },
+    {
+      "path": ".vimrc",
+      "status": "different",
+      "repo_sha256": "a06d06e5f40ca38fd89d348fc541f05659f71f94ac31c58a39f391ab54251880",
+      "mac_sha256": "6c64446831c18707325191caa55ff980c7d1b0e88a3c2e4b34e475bd65d11e37"
+    },
+    {
+      "path": ".zshrc",
+      "status": "different",
+      "repo_sha256": "5853d9f540183abcc163af8c8195bdc1aa181f1188abf7563370cb47ddf105a6",
+      "mac_sha256": "ca12112856a43cf996cf5536078317942fd4fb1b3827bf243a2b7775ca844412"
+    }
+  ]
+}
